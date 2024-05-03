@@ -1,0 +1,12 @@
+[package]
+name = "moondust"
+description = "Remove Luau type hints"
+authors = ["NotNite <hi@notnite.com>"]
+license = "MIT"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.82"
+clap = { version = "4.5.4", features = ["derive"] }
+full_moon = { version = "0.19.0", features = ["roblox", "lua52", "lua53", "lua54"] }
